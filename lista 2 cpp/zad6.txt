@@ -1,0 +1,1 @@
+Kompilatory ró¿ni¹ siê od siebie struktur¹. Zale¿nie od u¿ytego kompilera niektóre dane mogê byæ odczytywane w innej kolejnoœci.

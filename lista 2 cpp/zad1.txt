@@ -1,0 +1,10 @@
+1) najwiêkszy priorytet ma operator "++"
+   najmniejszy "="
+
+2) przyrostkowy operator ++ odpowiada za przejœciê na nastêpne element tablicy znaków
+
+3) wy³uskuje wartoœæ adresu wskazanego przez wskaŸnik
+
+4) zwraca wartoœæ kolejnych elementów argumentu
+
+5) wpêtla wykonuje siê dopóki wartoœæ wyra¿enia nie wyniesie 0?
