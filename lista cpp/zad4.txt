@@ -1,0 +1,20 @@
+#include <iostream>
+using namespace std;
+
+unsigned silnia(unsigned n)
+{
+
+    if (n == 0)
+        return 1;
+    else
+        return n * silnia(n-1);
+}
+
+int main()
+{
+    cout << silnia(-1);
+
+    return 0;
+}
+//program nie dzia³a prawid³owo, poniewa¿ -1 u¿yte jako argument unsigned zostaje przekonwertowane na wartoœæ maxymaln¹ int.
+//Funkcja jest rekurencyjne, wiêc zapamiêtuje kolejne wywo³ania i dochodzi do przepe³nienia stosu.
