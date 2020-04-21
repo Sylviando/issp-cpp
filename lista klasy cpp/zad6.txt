@@ -1,0 +1,3 @@
+W kodzie podanym w problemie 6. funkcja zamiast "arg" powinna zwracaæ "arg._x".
+Przy poprawnym zapisie kod nie skompiluje siê bez zaprzyjaŸnienia funkcji, poniewa¿ "_x" jest prywatna.
+W przypadku zapisu takiego jak w æwiczeniu, program kompiluje siê i wyrzuca b³¹d.
