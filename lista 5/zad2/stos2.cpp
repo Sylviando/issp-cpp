@@ -3,10 +3,7 @@
 Stos::Stos( Stos const& rhs )
 	: _size( rhs._size )
 {
-	if ( rhs.empty() )
-	{
-		_pSzczyt = new Ogniwo( 0, nullptr );
-	}
+	if ( rhs.empty() ) _pSzczyt = new Ogniwo( 0, nullptr );
 
 	else 
 	{
